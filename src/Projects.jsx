@@ -1,5 +1,13 @@
 import React from "react";
-import projectData from "./projectData.json"; // Adjust the path as necessary
+import ProjectDataComponent from "./ProjectDataComponent.jsx";
+
+// Importing the images
+import likes from '../images/likes.avif';
+import realEstate from '../images/real-estate.avif';
+import stocks from '../images/stocks.avif';
+
+// Getting the project data by calling the component with image props
+const projectData = ProjectDataComponent({ likes, realEstate, stocks });
 
 function Projects() {
   return (

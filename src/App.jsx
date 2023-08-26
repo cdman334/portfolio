@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import About from "./About";
-import Projects from "./Projects";
+import ModifiedProjects from "./ModifiedProjects";
 import "./App.css"
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <div className="container">
           <Header />
           <About />
-          <Projects />
+          <ModifiedProjects />
       </div>
   );
 }

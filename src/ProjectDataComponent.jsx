@@ -27,7 +27,7 @@ function ProjectDataComponent(props) {
             "id": 4,
             "title": "Image Identifier",
             "description": "Identify images using machine learning algorithms.",
-            "imageUrl": props.realEstate,
+            "imageUrl": props.identifier,
             "url": "https://github.com/cdman334/image-identifier"
         }
     ];

@@ -5,9 +5,10 @@ import ProjectDataComponent from "./ProjectDataComponent.jsx";
 import likes from '../images/likes.avif';
 import realEstate from '../images/real-estate.avif';
 import stocks from '../images/stocks.avif';
+import identifier from '../images/identifier.avif';
 
 // Getting the project data by calling the component with image props
-const projectData = ProjectDataComponent({ likes, realEstate, stocks });
+const projectData = ProjectDataComponent({ likes, realEstate, stocks, identifier });
 
 function Projects() {
   return (
